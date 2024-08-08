@@ -1,13 +1,13 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-08 15:32:33
+# 创建时间：2024-08-08 15:50:58
 # 使用模版：ACL4SSR.ini
 # 节点数量：50
 # 节点类型：vmess, vless
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
-mixed-port: 7899
+mixed-port: 7890
 allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
