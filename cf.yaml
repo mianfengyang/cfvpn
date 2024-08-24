@@ -1,6 +1,6 @@
 # 创建者：v2rayse.com 自动创建
-# 创建时间：2024-08-23 08:00:00
-# 节点类型：vless, ss, vmess, trojan
+# 创建时间：2024-08-24 08:00:00
+# 节点类型：vless, vmess, trojan
 ---
 mixed-port: 7890
 allow-lan: false
@@ -48,19 +48,9 @@ tun:
   - "1.1.1.1"
   - "1.0.0.1"
 proxies:
-- name: "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
-  type: "vless"
-  server: "104.17.147.22"
-  port: 8880
-  uuid: "5737340c-04a5-4636-91a2-855ae22986be"
-  network: "ws"
-  ws-opts:
-    path: "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056"
-    headers:
-      host: "www.speedtest.net.A.lightning-6.LiVE."
 - name: "🇺🇸_US_美国"
   type: "vless"
-  server: "104.19.162.204"
+  server: "104.17.178.117"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -70,7 +60,7 @@ proxies:
       host: "us3.rtacg.com"
 - name: "🇺🇸_US_美国_1"
   type: "vless"
-  server: "104.16.197.248"
+  server: "104.16.248.180"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -80,159 +70,7 @@ proxies:
       host: "us3.rtacg.com"
 - name: "🇺🇸_US_美国_2"
   type: "vless"
-  server: "104.18.19.66"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_3"
-  type: "vless"
-  server: "104.17.53.122"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_4"
-  type: "vless"
-  server: "104.17.190.145"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_5"
-  type: "vless"
-  server: "104.21.18.78"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇮🇳_IN_印度"
-  type: "ss"
-  server: "159.65.149.72"
-  port: 51348
-  cipher: "chacha20-ietf-poly1305"
-  password: "p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ"
-- name: "🇺🇸_US_美国_6"
-  type: "vless"
-  server: "198.41.209.150"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_7"
-  type: "vless"
-  server: "104.19.175.201"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_8"
-  type: "vless"
-  server: "104.21.23.200"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇷🇺_RU_俄罗斯"
-  type: "ss"
-  server: "80.92.204.106"
-  port: 9046
-  cipher: "aes-256-cfb"
-  password: "NvS8N4Vf8qAGPSCL"
-- name: "🇺🇸_US_美国_9"
-  type: "vless"
-  server: "104.17.146.26"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_10"
-  type: "vless"
-  server: "104.19.169.243"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_11"
-  type: "vless"
-  server: "104.16.110.117"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国->🇩🇪_DE_德国"
-  type: "vless"
-  server: "104.17.115.197"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_12"
-  type: "vless"
-  server: "104.17.18.3"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_13"
-  type: "vless"
-  server: "104.18.90.29"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_14"
-  type: "vless"
-  server: "104.17.225.227"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_15"
-  type: "vless"
-  server: "104.21.19.241"
+  server: "104.17.63.38"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -242,33 +80,21 @@ proxies:
       host: "us3.rtacg.com"
 - name: "🇺🇸_US_美国->🇨🇦_CA_加拿大"
   type: "vmess"
-  server: "104.26.5.56"
+  server: "104.19.47.65"
   port: 2086
+  sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
   network: "ws"
+  skip-cert-verify: true
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
-      host: "ip1.1789034.xyz"
+      host: "ip14.freegradely.xyz"
   alterId: 0
 - name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   type: "vmess"
-  server: "104.19.47.36"
-  port: 2086
-  sni: "ip2.1457230.xyz"
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: false
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip2.1457230.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
-  type: "vmess"
-  server: "104.19.45.47"
+  server: "104.19.45.15"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -280,9 +106,157 @@ proxies:
     headers:
       host: "ip13.freegradely.xyz"
   alterId: 0
+- name: "🇺🇸_US_美国_3"
+  type: "vless"
+  server: "104.22.61.177"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_4"
+  type: "vless"
+  server: "104.16.58.39"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_5"
+  type: "vless"
+  server: "104.18.84.1"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_6"
+  type: "vmess"
+  server: "66.235.200.0"
+  port: 80
+  sni: ""
+  uuid: "ec286f13-7e1a-42bc-9deb-76b91b4b9d2d"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "/"
+    headers:
+      host: "tr1-vmess.ctunnel.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
+  type: "vmess"
+  server: "104.26.5.88"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国_7"
+  type: "vless"
+  server: "198.41.208.112"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_8"
+  type: "vless"
+  server: "104.19.47.27"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_9"
+  type: "vless"
+  server: "104.18.87.215"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_10"
+  type: "vless"
+  server: "104.18.39.119"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_11"
+  type: "vless"
+  server: "104.17.57.179"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_12"
+  type: "vless"
+  server: "104.16.8.14"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_13"
+  type: "vless"
+  server: "104.16.206.38"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_14"
+  type: "vless"
+  server: "172.67.68.156"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_15"
+  type: "vless"
+  server: "104.17.63.177"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
 - name: "🇺🇸_US_美国_16"
   type: "vless"
-  server: "104.19.168.229"
+  server: "104.16.199.200"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -292,7 +266,7 @@ proxies:
       host: "us3.rtacg.com"
 - name: "🇺🇸_US_美国_17"
   type: "vless"
-  server: "104.17.150.243"
+  server: "104.22.48.170"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -300,9 +274,18 @@ proxies:
     path: "/"
     headers:
       host: "us3.rtacg.com"
+- name: "🇫🇷_FR_法国"
+  type: "trojan"
+  server: "35.180.219.174"
+  port: 22222
+  sni: "trojan.burgerip.co.uk"
+  password: "telegram-id-privatevpns"
+  network: "tcp"
+  alpn:
+  - "http/1.1"
 - name: "🇺🇸_US_美国_18"
   type: "vless"
-  server: "172.67.67.54"
+  server: "104.17.218.197"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -310,16 +293,9 @@ proxies:
     path: "/"
     headers:
       host: "us3.rtacg.com"
-- name: "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
-  type: "trojan"
-  server: "cn2.cdn.xfltd-cdn.top"
-  port: 12051
-  sni: "cdn.alibaba.com"
-  password: "3698a3e7-2877-4ded-a665-d81ee3cfd449"
-  skip-cert-verify: true
 - name: "🇺🇸_US_美国_19"
   type: "vless"
-  server: "104.26.9.139"
+  server: "172.67.175.154"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -329,37 +305,7 @@ proxies:
       host: "us3.rtacg.com"
 - name: "🇺🇸_US_美国_20"
   type: "vless"
-  server: "104.21.19.71"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_21"
-  type: "vless"
-  server: "104.21.18.82"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_22"
-  type: "vless"
-  server: "104.16.248.15"
-  port: 80
-  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
-  network: "ws"
-  ws-opts:
-    path: "/"
-    headers:
-      host: "us3.rtacg.com"
-- name: "🇺🇸_US_美国_23"
-  type: "vless"
-  server: "104.17.61.201"
+  server: "104.17.48.138"
   port: 80
   uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
@@ -373,225 +319,183 @@ proxy-groups:
   proxies:
   - "♻️ 自动选择"
   - "DIRECT"
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
   interval: 300
   tolerance: 50
   proxies:
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "♻️ 自动选择"
   - "🎯 全球直连"
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 - name: "📲 电报信息"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
   - "🎯 全球直连"
   - "🚀 节点选择"
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -614,38 +518,31 @@ proxy-groups:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "♻️ 自动选择"
-  - "🇺🇸_US_美国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国_4"
   - "🇺🇸_US_美国_5"
-  - "🇮🇳_IN_印度"
   - "🇺🇸_US_美国_6"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国_8"
-  - "🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
   - "🇺🇸_US_美国_11"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_12"
   - "🇺🇸_US_美国_13"
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_16"
   - "🇺🇸_US_美国_17"
+  - "🇫🇷_FR_法国"
   - "🇺🇸_US_美国_18"
-  - "🇨🇳_CN_中国->🇷🇺_RU_俄罗斯"
   - "🇺🇸_US_美国_19"
   - "🇺🇸_US_美国_20"
-  - "🇺🇸_US_美国_21"
-  - "🇺🇸_US_美国_22"
-  - "🇺🇸_US_美国_23"
 rule-providers:
   Apple:
     type: "http"
