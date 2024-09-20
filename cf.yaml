@@ -1,6 +1,6 @@
 # 创建者：v2rayse.com 自动创建
-# 创建时间：2024-09-19 16:00:00
-# 节点类型：vless, vmess
+# 创建时间：2024-09-20 08:00:00
+# 节点类型：vmess, vless
 ---
 mixed-port: 7890
 allow-lan: false
@@ -49,35 +49,8 @@ tun:
   - "1.0.0.1"
 proxies:
 - name: "🇺🇸_US_美国"
-  type: "vless"
-  server: "198.41.193.222"
-  port: 80
-  uuid: "e59be95e-7539-4a31-9b2d-a03a8f072ff3"
-  servername: "tr1-vless.ctunnel.xyz"
-  network: "ws"
-  ws-opts:
-    path: "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro"
-    headers:
-      host: "127.0.0.1.www.iransell.ir.太空.spacecadet.ийкадет.安靜地方.wonkacapitano.buzz."
-- name: "🇺🇸_US_美国_1"
-  type: "vless"
-  server: "3.70.55.120"
-  port: 8880
-  uuid: "6ee42f60-cd65-4ab8-bb79-991d12ae877f"
-  network: "tcp"
-- name: "🇺🇸_US_美国_2"
-  type: "vless"
-  server: "172.67.69.236"
-  port: 8880
-  uuid: "eeea1fe2-3ee9-538e-b5f9-a6fd89cff139"
-  network: "ws"
-  ws-opts:
-    path: "join-@mosiv2-@mosiv2-?ed=2048"
-    headers:
-      host: "www.digikala.com.joinTelegram.mosiv2.tr2.vless.Sitespeedtest.net."
-- name: "🇺🇸_US_美国_3"
   type: "vmess"
-  server: "fbi.gov"
+  server: "104.26.12.140"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -91,21 +64,35 @@ proxies:
   alterId: 0
 - name: "🇺🇸_US_美国->🇨🇦_CA_加拿大"
   type: "vmess"
-  server: "23.227.38.6"
+  server: "104.19.46.56"
   port: 2086
   sni: ""
-  uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
   network: "ws"
   skip-cert-verify: true
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
-      host: "ip004.dtku47.xyz"
+      host: "ip14.freegradely.xyz"
   alterId: 0
-- name: "🇺🇸_US_美国_4"
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
   type: "vmess"
-  server: "104.22.36.243"
+  server: "104.19.58.175"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip14.freegradely.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
+  type: "vmess"
+  server: "104.26.5.57"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -117,9 +104,9 @@ proxies:
     headers:
       host: "ip1.1789034.xyz"
   alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+- name: "🇺🇸_US_美国_1"
   type: "vmess"
-  server: "104.19.45.47"
+  server: "172.67.74.112"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -129,26 +116,37 @@ proxies:
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
-      host: "ip13.freegradely.xyz"
+      host: "ip11.freegradely.xyz"
   alterId: 0
-- name: "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  type: "vless"
-  server: "162.159.44.129"
-  port: 80
-  uuid: "62ae1cc9-5940-4f21-a0ed-1c13b32b5908"
-  servername: "de.ailicf.us.kg"
+- name: "🇺🇸_US_美国_2"
+  type: "vmess"
+  server: "162.159.140.45"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
   network: "ws"
+  skip-cert-verify: true
   ws-opts:
-    path: "/safaf"
+    path: "github.com/Alvin9999"
     headers:
-      host: "de.ailicf.us.kg"
-- name: "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  type: "vless"
-  server: "193.107.48.138"
-  port: 2090
-  uuid: "4c1ad528-a8df-489a-85da-9893783e172c"
-  network: "tcp"
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
+  type: "vmess"
+  server: "172.64.166.22"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip2.1457230.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   type: "vmess"
   server: "104.19.55.49"
   port: 2086
@@ -162,51 +160,9 @@ proxies:
     headers:
       host: "ip2.1457230.xyz"
   alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
-  type: "vmess"
-  server: "104.17.106.151"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip14.freegradely.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
-  type: "vmess"
-  server: "172.64.167.25"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip2.1457230.xyz"
-  alterId: 0
 - name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
   type: "vmess"
-  server: "172.64.166.20"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip2.1457230.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
-  type: "vmess"
-  server: "104.19.46.17"
+  server: "104.19.45.90"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -218,118 +174,21 @@ proxies:
     headers:
       host: "ip13.freegradely.xyz"
   alterId: 0
-- name: "🇺🇸_US_美国_5"
+- name: "🇺🇸_US_美国_3"
   type: "vless"
-  server: "141.101.121.110"
+  server: "104.19.149.179"
   port: 80
-  uuid: "f2a72ad0-d23f-4eed-96cb-7d970b1e784d"
-  servername: "ov-germany1.09vpn.com"
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
   ws-opts:
-    path: "/vless/?Vless_txt"
+    path: "/"
     headers:
-      host: "ov-germany1.09vpn.com"
-- name: "🇺🇸_US_美国_6"
-  type: "vless"
-  server: "151.101.130.219"
-  port: 80
-  uuid: "bf392e44-b028-4266-b138-f6d6fef5b1d1"
-  network: "ws"
-  ws-opts:
-    path: "/telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420,telegram-EXPRESSVPN_420?ed=2048"
-    headers:
-      host: "Dadachibodoberim189.net"
-- name: "🇺🇸_US_美国_7"
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
   type: "vmess"
-  server: "singapore.com"
+  server: "104.19.38.62"
   port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip1.1789034.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
-  type: "vmess"
-  server: "104.19.47.36"
-  port: 2086
-  sni: "ip2.1457230.xyz"
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: false
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip2.1457230.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  type: "vmess"
-  server: "172.64.167.44"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip2.1457230.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国_8"
-  type: "vless"
-  server: "52.32.132.172"
-  port: 8880
-  uuid: "e2e2b2f8-d83a-4918-8a5e-194e4b2aaf15"
-  network: "tcp"
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  type: "vmess"
-  server: "172.64.166.28"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip2.1457230.xyz"
-  alterId: 0
-- name: "🇸🇪_SE_瑞典->🇺🇸_US_美国"
-  type: "vless"
-  server: "185.146.173.46"
-  port: 80
-  uuid: "77be959a-3a9f-53a1-ab5c-71e461a79f4d"
-  network: "ws"
-  ws-opts:
-    path: "/vless"
-    headers:
-      host: "Fi2.vless.site."
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  type: "vmess"
-  server: "104.26.5.66"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip1.1789034.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国_9"
-  type: "vmess"
-  server: "104.16.148.244"
-  port: 2086
-  sni: "ip006.freegradely.xyz"
+  sni: "ip005.3196772.xyz"
   uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
   cipher: "auto"
   network: "ws"
@@ -337,21 +196,129 @@ proxies:
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
-      host: "ip006.freegradely.xyz"
+      host: "ip005.3196772.xyz"
   alterId: 0
-- name: "🇺🇸_US_美国_10"
+- name: "🇺🇸_US_美国_4"
   type: "vless"
-  server: "104.17.148.22"
-  port: 8080
-  uuid: "3bad59da-2448-4216-b9cb-0ca7c4c69356"
+  server: "104.17.53.72"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
   network: "ws"
   ws-opts:
-    path: "/TELEGRAMmainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray,mainv2-ray?ed=8880"
+    path: "/"
     headers:
-      host: "JOiNMAiN.MRaLPHa-Vpn.CoM."
-- name: "🇺🇸_US_美国_11"
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   type: "vmess"
-  server: "162.159.140.33"
+  server: "172.64.166.16"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip2.1457230.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国_5"
+  type: "vmess"
+  server: "icook.tw"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国_6"
+  type: "vmess"
+  server: "104.26.8.156"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
+  type: "vmess"
+  server: "104.19.46.39"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip13.freegradely.xyz"
+  alterId: 0
+- name: "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
+  type: "vless"
+  server: "190.93.247.56"
+  port: 8080
+  uuid: "81d4c630-1a8a-4eb2-9b01-2c195bd743c2"
+  network: "ws"
+  ws-opts:
+    path: "/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560"
+    headers:
+      host: "legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz."
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
+  type: "vmess"
+  server: "104.19.59.89"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip14.freegradely.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国_7"
+  type: "vmess"
+  server: "malaysia.com"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
+  type: "vmess"
+  server: "104.19.47.122"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip14.freegradely.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国_8"
+  type: "vmess"
+  server: "162.159.140.56"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -365,49 +332,20 @@ proxies:
   alterId: 0
 - name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   type: "vmess"
-  server: "104.19.45.31"
+  server: "104.19.21.71"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
   cipher: "auto"
   network: "ws"
-  skip-cert-verify: true
   ws-opts:
     path: "github.com/Alvin9999"
     headers:
-      host: "ip13.freegradely.xyz"
+      host: "ip11.freegradely.xyz"
   alterId: 0
 - name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   type: "vmess"
-  server: "104.19.51.232"
-  port: 2086
-  sni: ""
-  uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip005.dtku47.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
-  type: "vmess"
-  server: "japan.com"
-  port: 2086
-  sni: ""
-  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-  cipher: "auto"
-  network: "ws"
-  skip-cert-verify: true
-  ws-opts:
-    path: "github.com/Alvin9999"
-    headers:
-      host: "ip1.1789034.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
-  type: "vmess"
-  server: "172.64.167.10"
+  server: "172.64.167.8"
   port: 2086
   sni: ""
   uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
@@ -419,6 +357,116 @@ proxies:
     headers:
       host: "ip2.1457230.xyz"
   alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
+  type: "vmess"
+  server: "104.19.21.230"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip14.freegradely.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  type: "vmess"
+  server: "104.19.46.33"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip13.freegradely.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇩🇪_DE_德国"
+  type: "vless"
+  server: "104.18.3.6"
+  port: 80
+  uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+  network: "ws"
+  ws-opts:
+    path: "/"
+    headers:
+      host: "us3.rtacg.com"
+- name: "🇺🇸_US_美国_9"
+  type: "vmess"
+  server: "104.26.5.88"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip1.1789034.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  type: "vmess"
+  server: "104.19.45.47"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip13.freegradely.xyz"
+  alterId: 0
+- name: "🇧🇪_BE_比利时"
+  type: "vless"
+  server: "57.129.41.217"
+  port: 80
+  uuid: "4004b4f2-d973-432f-8376-043a52cec187"
+  network: "ws"
+  ws-opts:
+    path: "/vless/"
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  type: "vmess"
+  server: "172.64.167.19"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip2.1457230.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  type: "vmess"
+  server: "104.19.38.8"
+  port: 2086
+  sni: ""
+  uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+  cipher: "auto"
+  network: "ws"
+  skip-cert-verify: true
+  ws-opts:
+    path: "github.com/Alvin9999"
+    headers:
+      host: "ip14.freegradely.xyz"
+  alterId: 0
+- name: "🇺🇸_US_美国_10"
+  type: "vless"
+  server: "151.101.194.219"
+  port: 80
+  uuid: "05670e2b-7578-4bb8-8775-b79d5331846c"
+  network: "ws"
+  ws-opts:
+    headers:
+      host: "wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v06.newbackup.com"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
@@ -426,35 +474,37 @@ proxy-groups:
   - "♻️ 自动选择"
   - "DIRECT"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
@@ -462,35 +512,37 @@ proxy-groups:
   tolerance: 50
   proxies:
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
@@ -498,140 +550,148 @@ proxy-groups:
   - "♻️ 自动选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 - name: "📲 电报信息"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
   - "🎯 全球直连"
   - "🚀 节点选择"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -655,35 +715,37 @@ proxy-groups:
   - "🎯 全球直连"
   - "♻️ 自动选择"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_1"
-  - "🇺🇸_US_美国->🇺🇦_UA_乌克兰"
-  - "🇷🇺_RU_俄罗斯->🇧🇬_BG_保加利亚"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_2"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_4"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_5"
+  - "🇺🇸_US_美国_3"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_6"
+  - "🇺🇸_US_美国_4"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
-  - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_8"
-  - "🇺🇸_US_美国_8"
+  - "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_9"
-  - "🇸🇪_SE_瑞典->🇺🇸_US_美国"
+  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_10"
-  - "🇺🇸_US_美国_9"
-  - "🇺🇸_US_美国_10"
-  - "🇺🇸_US_美国_11"
+  - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_11"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_12"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_13"
   - "🇺🇸_US_美国->🇨🇦_CA_加拿大_14"
+  - "🇺🇸_US_美国->🇩🇪_DE_德国"
+  - "🇺🇸_US_美国_9"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_15"
+  - "🇧🇪_BE_比利时"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_16"
+  - "🇺🇸_US_美国->🇨🇦_CA_加拿大_17"
+  - "🇺🇸_US_美国_10"
 rule-providers:
   Apple:
     type: "http"
